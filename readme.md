@@ -2,7 +2,7 @@
 Nazwa projektu: Ultradźwiękowy wykrywasz przeszkód
 
 # Wstęp:
-Projekt składa się z płytki UNO ATmega328P-AU Arduino połączonej do breadboard'a na którym przyłączony został głośnik oraz czujnik ultradźwiękowy. 
+Projekt składa się z płytki UNO ATmega328P-AU Arduino połączonej do breadboard'a na którym przyłączony został głośnik (buzzer) oraz czujnik ultradźwiękowy. 
 Działanie układu polega na uruchomieniu sygnału dźwiękowego z głośnika gdy tylko czujnik wykryje obiekt w odległości 0,5 metra.
 
 # Wykorzystane elementy:
@@ -12,7 +12,7 @@ Działanie układu polega na uruchomieniu sygnału dźwiękowego z głośnika gd
 - ultradźwiękowy czujnik odległości HC-SR04
 
 # Projekt schematyczny:
-![img](./firmwware/projekt111.jpg)
+![img](./hardware/projekt111.jpg)
 
 # Krótka prezentacja działania programu:
 https://www.youtube.com/watch?v=WYWlnuSujS8
