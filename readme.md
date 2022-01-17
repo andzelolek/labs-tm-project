@@ -14,7 +14,7 @@ Działanie układu polega na uruchomieniu sygnału dźwiękowego z głośnika gd
 # Projekt schematyczny z programu Fritzing:
 ![img](./hardware/projekt111.jpg)
 
-# Zdjęcie wykonanego projektu
+# Zdjęcie wykonanego projektu:
 ![img](./hardware/zdjprojekt.jpg)
 
 # Krótka prezentacja działania programu:
