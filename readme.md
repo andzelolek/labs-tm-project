@@ -38,7 +38,7 @@ void loop()
   delay(1);
   digitalWrite(trigPin, LOW);
   czas = pulseIn(echoPin, HIGH);	// Pomiar impulsu na echoPin
-  odleglosc = (czas/2) / 29.1;  // odległość to połowa czasu trwania podzielona przez 29,1 
+  odleglosc = (czas/2) / 29.1;		// odległość to połowa czasu trwania podzielona przez 29,1 
     if (odleglosc <= 50 && odleglosc >= 0) {	 // zastosowanie pętli if która pozostawia buzzer w spoczynku / aktywuje go
       // Aktywacja buzzera
       digitalWrite(buzzPin, HIGH);
