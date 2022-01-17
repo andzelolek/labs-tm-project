@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=WYWlnuSujS8
 
 # Kod programu:
 ```cpp
-// Definicja pinów dla buzzera i czujniku
+// Definicja pinów dla buzzera i czujnika
 int const trigPin = 10;
 int const echoPin = 9;
 int const buzzPin = 2;
