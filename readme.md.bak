@@ -10,7 +10,6 @@ Działanie układu polega na uruchomieniu sygnału dźwiękowego z głośnika gd
 - breadboard
 - buzzer 5V 12mm - THT
 - ultradźwiękowy czujnik odległości HC-SR04
-- przewody połączeniowe
 
 # Projekt schematyczny z programu Fritzing:
 ![img](./hardware/projekt111.jpg)

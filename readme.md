@@ -33,17 +33,13 @@ void setup()
 
 void loop()
 {
-  // czas to szerokość impulsu wejściowego a odleglosc to odległość od przeszkody 
-  int czas, odleglosc;
-  // Impuls wyjściowy na trigPin
-  digitalWrite(trigPin, HIGH); 
+  int czas, odleglosc;	// czas to szerokość impulsu wejściowego a odleglosc to odległość od przeszkody 
+  digitalWrite(trigPin, HIGH);	// Impuls wyjściowy na trigPin
   delay(1);
   digitalWrite(trigPin, LOW);
-  // Pomiar impulsu na echoPin
-  czas = pulseIn(echoPin, HIGH);
+  czas = pulseIn(echoPin, HIGH);	// Pomiar impulsu na echoPin
   odleglosc = (czas/2) / 29.1;  // odległość to połowa czasu trwania podzielona przez 29,1 
-  // zastosowanie pętli if która pozostawia buzzer w spoczynku / aktywuje go
-    if (odleglosc <= 50 && odleglosc >= 0) {
+    if (odleglosc <= 50 && odleglosc >= 0) {	 // zastosowanie pętli if która pozostawia buzzer w spoczynku / aktywuje go
       // Aktywacja buzzera
       digitalWrite(buzzPin, HIGH);
     } else {
