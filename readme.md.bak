@@ -26,9 +26,9 @@ int const buzzPin = 2;
 
 void setup()
 {
-  pinMode(trigPin, OUTPUT); // wyjście impulsowe dla pinu trig
-  pinMode(echoPin, INPUT); // echo pin odpowiedzialny za szerokość impulsu
-  pinMode(buzzPin, OUTPUT); // wyprowadzenie do sterowania buzzerem
+  pinMode(trigPin, OUTPUT);		// wyjście impulsowe dla pinu trig
+  pinMode(echoPin, INPUT);		// echo pin odpowiedzialny za szerokość impulsu
+  pinMode(buzzPin, OUTPUT);		// wyprowadzenie do sterowania buzzerem
 }
 
 void loop()
