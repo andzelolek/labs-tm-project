@@ -12,7 +12,7 @@ Działanie układu polega na uruchomieniu sygnału dźwiękowego z głośnika gd
 - ultradźwiękowy czujnik odległości HC-SR04
 
 # Projekt schematyczny:
-![img](./firmwware/projekt111.jpg)
+![img](./hardware/projekt111.jpg)
 
 # Krótka prezentacja działania programu:
 https://www.youtube.com/watch?v=WYWlnuSujS8
